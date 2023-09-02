@@ -4,13 +4,20 @@ An Analyzer for Rust Codebases. Determine things like, what is the global Rust-L
    Design Concepts:
 
    1. Parse/Gen a semantic model of a Rust Static + Runtime representation (Static + Occurence-Count + Time Signatures)
+
       1.0. "Static"
+   
       1.1. Occurence-Count
+   
       1.2. Time Signatures
+   
       1.1. "Code-Time" == Static  + (OccCn * TimeAvg)
+   
       1.2. "Path-Length" relative to Codebase Structure-Object Length 
             avg (Object CodeTime relative against codebase codetime total, code-object structure average) 
+   
       1.3. "Criticality" or "incidince" is what is that space-time component to that codebase. 
+   
       1.4. "Actuality" gives us a quantifiable measurment of the degree of a statement to its value for a given codebase. 
 
     Frome these basic definitions, its not perfect but, a general idea of a portion of code to its total implication to a cb should 
