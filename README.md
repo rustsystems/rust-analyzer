@@ -1,6 +1,15 @@
 # rust-analyzer
-An Analyzer for Rust Codebases. Determine things like, what is the global Rust-Lang UNSAFE space, etc. What is the set of Rust Features employed (utilizing Rust-Features project) etc.
-
+An Analyzer for Rust Codebases. Determine things like:
+   what is the global Rust-Lang UNSAFE space, etc. 
+   What is the set of Rust Features employed (utilizing Rust-Features project) etc.
+   What is the ratio of Rust CVE's per source metrics to that of other codebases? 
+      - Can this claim really be substantiated? 
+        Iff so, where are the vulns that do emerge coming from? Can those be prevented? 
+        If not, maybe the rust body should adopt a kind of standard that a given lib must 
+        produce a queryable/publishly extractable label - 
+        like a warning label - "not safe for your children's childhood data-sets"
+   
+   
    Design Concepts:
 
    1. Parse/Gen a semantic model of a Rust Static + Runtime representation (Static + Occurence-Count + Time Signatures)
