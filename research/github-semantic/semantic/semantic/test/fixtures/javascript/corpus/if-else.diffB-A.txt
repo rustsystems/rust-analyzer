@@ -1,0 +1,25 @@
+(Statements
+  (If
+  { (Identifier)
+  ->(Identifier) }
+  { (Identifier)
+  ->(Identifier) }
+    (If
+    { (Identifier)
+    ->(Identifier) }
+    { (Statements
+      {-(Identifier)-})
+    ->(Identifier) }
+      (If
+      { (Identifier)
+      ->(Identifier) }
+      { (Identifier)
+      ->(Identifier) }
+        (If
+        { (Identifier)
+        ->(Identifier) }
+        { (Statements
+          {-(Identifier)-})
+        ->(Identifier) }
+        { (Identifier)
+        ->(Identifier) })))))

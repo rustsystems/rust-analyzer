@@ -1,0 +1,10 @@
+(Statements
+{+(Hash)+}
+  (Set
+    (Integer)
+  {+(Integer)+}
+  {+(Integer)+})
+{-(Set
+  {-(Integer)-}
+  {-(Integer)-}
+  {-(Integer)-})-})

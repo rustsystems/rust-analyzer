@@ -1,0 +1,15 @@
+(Statements
+  (Function
+    (Empty)
+    (Empty)
+    (Identifier)
+    (StatementBlock
+      (VariableDeclaration
+        (Assignment
+          (Empty)
+          (Identifier)
+          (Float)))
+      (Yield
+      { (Update
+        {-(Identifier)-})
+      ->(Identifier) }))))

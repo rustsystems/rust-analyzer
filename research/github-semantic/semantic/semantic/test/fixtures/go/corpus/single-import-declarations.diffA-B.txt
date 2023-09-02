@@ -1,0 +1,18 @@
+(Statements
+  (Package
+    (Identifier))
+{ (QualifiedImport
+  {-(Identifier)-})
+->(QualifiedImport
+  {+(Identifier)+}) }
+{ (Import
+  {-(TextElement)-})
+->(Import
+  {+(TextElement)+}) }
+{ (QualifiedImport
+  {-(Identifier)-})
+->(QualifiedImport
+  {+(Identifier)+}) }
+  (Function
+    (Identifier)
+    (Statements)))

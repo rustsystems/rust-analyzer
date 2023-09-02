@@ -1,0 +1,36 @@
+(Statements
+{+(TypeAlias
+  {+(Empty)+}
+  {+(TypeIdentifier)+}
+  {+(Union
+    {+(Union
+      {+(Union
+        {+(PredefinedType)+}
+        {+(PredefinedType)+})+}
+      {+(TypeIdentifier)+})+}
+    {+(GenericType
+      {+(TypeIdentifier)+}
+      {+(TypeArguments
+        {+(Union
+          {+(Union
+            {+(PredefinedType)+}
+            {+(PredefinedType)+})+}
+          {+(TypeIdentifier)+})+})+})+})+})+}
+{-(AmbientDeclaration
+  {-(TypeAlias
+    {-(Empty)-}
+    {-(TypeIdentifier)-}
+    {-(Union
+      {-(Union
+        {-(Union
+          {-(PredefinedType)-}
+          {-(PredefinedType)-})-}
+        {-(TypeIdentifier)-})-}
+      {-(GenericType
+        {-(TypeIdentifier)-}
+        {-(TypeArguments
+          {-(Union
+            {-(Union
+              {-(PredefinedType)-}
+              {-(PredefinedType)-})-}
+            {-(TypeIdentifier)-})-})-})-})-})-})-})

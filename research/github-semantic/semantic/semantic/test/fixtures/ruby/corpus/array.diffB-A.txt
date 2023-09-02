@@ -1,0 +1,8 @@
+(Statements
+  (Array
+  {+(Integer)+}
+  {+(Integer)+}
+  {+(Integer)+}
+  {-(TextElement)-}
+  {-(TextElement)-}
+  {-(TextElement)-}))

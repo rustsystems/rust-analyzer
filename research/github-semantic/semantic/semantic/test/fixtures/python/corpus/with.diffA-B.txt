@@ -1,0 +1,45 @@
+(Statements
+  (Let
+  { (Identifier)
+  ->(Empty) }
+  { (Call
+    {-(Identifier)-}
+    {-(Identifier)-}
+    {-(TextElement)-}
+    {-(Empty)-})
+  ->(MemberAccess
+    {+(Identifier)+}
+    {+(Identifier)+}) }
+    (Statements
+      (Assignment
+        (Identifier)
+        (Boolean))
+    {-(ForEach
+      {-(Identifier)-}
+      {-(Identifier)-}
+      {-(Statements
+        {-(Assignment
+          {-(Identifier)-}
+          {-(Boolean)-})-})-})-}))
+{+(Let
+  {+(Empty)+}
+  {+(Call
+    {+(MemberAccess
+      {+(Identifier)+}
+      {+(Identifier)+})+}
+    {+(Identifier)+}
+    {+(TextElement)+}
+    {+(Identifier)+}
+    {+(Empty)+})+}
+  {+(Let
+    {+(Empty)+}
+    {+(Call
+      {+(MemberAccess
+        {+(Identifier)+}
+        {+(Identifier)+})+}
+      {+(Identifier)+}
+      {+(TextElement)+}
+      {+(Identifier)+}
+      {+(Empty)+})+}
+    {+(Statements
+      {+(Identifier)+})+})+})+})

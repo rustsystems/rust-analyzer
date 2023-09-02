@@ -1,0 +1,9 @@
+(Statements
+{+(ScopeExit
+  {+(Send
+    {+(Identifier)+})+})+}
+{-(Send
+  {-(Identifier)-})-}
+{-(ScopeExit
+  {-(Send
+    {-(Identifier)-})-})-})

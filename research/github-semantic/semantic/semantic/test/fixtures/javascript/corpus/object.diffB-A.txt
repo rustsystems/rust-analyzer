@@ -1,0 +1,11 @@
+(Statements
+  (Hash
+    (KeyValue
+      (TextElement)
+      (TextElement))
+  {-(KeyValue
+    {-(TextElement)-}
+    {-(TextElement)-})-}
+  {-(KeyValue
+    {-(TextElement)-}
+    {-(TextElement)-})-}))

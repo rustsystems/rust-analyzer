@@ -1,0 +1,9 @@
+(Statements
+  (Function
+    (Empty)
+  {-(Identifier)-}
+    (Statements
+      (Plus
+      { (Identifier)
+      ->(Integer) }
+        (Integer)))))

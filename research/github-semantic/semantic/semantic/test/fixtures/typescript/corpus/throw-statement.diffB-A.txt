@@ -1,0 +1,7 @@
+(Statements
+  (Throw
+    (New
+      (Identifier)
+      (Empty)
+    { (TextElement)
+    ->(TextElement) })))

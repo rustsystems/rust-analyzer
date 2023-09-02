@@ -1,0 +1,21 @@
+(Statements
+  (Function
+    (Empty)
+    (Empty)
+  { (Identifier)
+  ->(Identifier) }
+  {-(RequiredParameter
+    {-(Empty)-}
+    {-(Empty)-}
+    {-(Identifier)-}
+    {-(Empty)-})-}
+  {-(RequiredParameter
+    {-(Empty)-}
+    {-(Empty)-}
+    {-(Identifier)-}
+    {-(Empty)-})-}
+    (StatementBlock
+    {+(Return
+      {+(Boolean)+})+}
+    {-(Identifier)-}))
+  (Empty))

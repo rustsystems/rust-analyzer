@@ -1,0 +1,16 @@
+(Statements
+  (Package
+    (Identifier))
+  (Function
+    (Identifier)
+    (Statements
+      (Type
+        (Identifier)
+        (Constructor
+          (Empty)
+          (Field
+            (Identifier)
+            (Statements
+            { (Identifier)
+            ->(Identifier) }
+            {-(Identifier)-})))))))

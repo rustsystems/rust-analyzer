@@ -1,0 +1,10 @@
+(Statements
+  (Method
+    (Empty)
+    (Identifier)
+    (Statements
+      (Try
+      { (Send
+        {-(Identifier)-}
+        {-(TextElement)-})
+      ->(Statements) }))))

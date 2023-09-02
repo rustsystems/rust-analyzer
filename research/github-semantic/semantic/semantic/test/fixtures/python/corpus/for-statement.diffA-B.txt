@@ -1,0 +1,51 @@
+(Statements
+{+(ForEach
+  {+(Identifier)+}
+  {+(Array
+    {+(Tuple
+      {+(Integer)+})+}
+    {+(Tuple
+      {+(Integer)+})+}
+    {+(Tuple
+      {+(Integer)+})+})+}
+  {+(Statements
+    {+(Identifier)+})+})+}
+  (Else
+    (ForEach
+      (Statements
+        (Identifier)
+      { (Identifier)
+      ->(Identifier) })
+      (Identifier)
+      (Statements
+        (Call
+          (Identifier)
+          (Identifier)
+          (Empty))
+        (ForEach
+          (Statements
+            (Identifier)
+          { (Identifier)
+          ->(Identifier) })
+          (Identifier)
+          (Statements
+            (Call
+              (Identifier)
+              (Identifier)
+              (Empty))))))
+    (Call
+      (Identifier)
+    { (Identifier)
+    ->(Identifier) }
+      (Empty)))
+{-(ForEach
+  {-(Identifier)-}
+  {-(Array
+    {-(Tuple
+      {-(Integer)-})-}
+    {-(Tuple
+      {-(Integer)-})-}
+    {-(Tuple
+      {-(Integer)-})-})-}
+  {-(Statements
+    {-(Identifier)-})-})-})

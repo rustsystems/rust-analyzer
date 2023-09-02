@@ -1,0 +1,82 @@
+cabal-version:       2.4
+
+name:                semantic-analysis
+version:             0.0.0.0
+synopsis:            Program analysis by abstract definitional interpretation.
+description:         Program analysis abstractions and implementations by abstract definitional interpretation.
+homepage:            https://github.com/github/semantic/tree/master/semantic-analysis#readme
+bug-reports:         https://github.com/github/semantic/issues
+license:             MIT
+license-file:        LICENSE
+author:              The Semantic authors
+maintainer:          opensource+semantic@github.com
+copyright:           (c) 2019 GitHub, Inc.
+category:            Language
+build-type:          Simple
+stability:           alpha
+extra-source-files:  README.md
+
+tested-with:
+  GHC == 8.6.5
+
+common common
+  default-language: Haskell2010
+  ghc-options:
+    -Weverything
+    -Wno-missing-local-signatures
+    -Wno-missing-import-lists
+    -Wno-implicit-prelude
+    -Wno-safe
+    -Wno-unsafe
+    -Wno-name-shadowing
+    -Wno-monomorphism-restriction
+    -Wno-missed-specialisations
+    -Wno-all-missed-specialisations
+    -Wno-star-is-type
+  if (impl(ghc >= 8.8))
+    ghc-options: -Wno-missing-deriving-strategies
+  if (impl(ghc >= 8.10))
+    ghc-options:
+      -Wno-missing-safe-haskell-mode
+      -Wno-prepositive-qualified-module
+  if (impl(ghc >= 9.2))
+    ghc-options:
+      -Wno-missing-kind-signatures
+
+library
+  import: common
+  hs-source-dirs: src
+  exposed-modules:
+    Analysis.Analysis.Concrete
+    Analysis.Analysis.Exception
+    Analysis.Analysis.Typecheck
+    Analysis.Blob
+    Analysis.Carrier.Fail.WithLoc
+    Analysis.Carrier.Statement.State
+    Analysis.Carrier.Store.Monovariant
+    Analysis.Carrier.Store.Precise
+    Analysis.Data.Snoc
+    Analysis.Effect.Domain
+    Analysis.Effect.Env
+    Analysis.Effect.Statement
+    Analysis.Effect.Store
+    Analysis.File
+    Analysis.FlowInsensitive
+    Analysis.Functor.Named
+    Analysis.Module
+    Analysis.Name
+    Analysis.Project
+    Analysis.Reference
+    Analysis.Syntax
+  build-depends:
+    , aeson                        >= 1.4 && < 3
+    , base                         >= 4.13 && < 5
+    , bytestring                   >= 0.10.8.2 && < 0.13
+    , containers                  ^>= 0.6
+    , filepath
+    , fused-effects               ^>= 1.1
+    , hashable
+    , semantic-source             ^>= 0.2
+    , text                        ^>= 1.2.3.1
+    , transformers                ^>= 0.5
+    , vector                      ^>= 0.12.3

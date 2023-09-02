@@ -1,0 +1,31 @@
+(Statements
+  (Comprehension
+  { (Identifier)
+  ->(Identifier) }
+    (Statements
+    {+(Statements
+      {+(Identifier)+}
+      {+(Identifier)+})+}
+    {+(Call
+      {+(Identifier)+}
+      {+(Empty)+})+}
+    {+(Statements
+      {+(Identifier)+}
+      {+(Identifier)+})+}
+    {+(Call
+      {+(Identifier)+}
+      {+(Empty)+})+}
+    {-(Identifier)-}
+    {-(Identifier)-}))
+  (Comprehension
+  { (Identifier)
+  ->(Plus
+    {+(Identifier)+}
+    {+(Integer)+}) }
+    (Statements
+    {+(Identifier)+}
+    {+(Identifier)+}
+    {-(Statements
+      {-(Identifier)-}
+      {-(Identifier)-})-}
+    {-(Identifier)-})))

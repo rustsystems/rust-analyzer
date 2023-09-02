@@ -1,0 +1,8 @@
+(Statements
+  (Try
+    (Send
+    { (Identifier)
+    ->(Identifier) })
+    (Catch
+      (Null)
+      (Empty))))

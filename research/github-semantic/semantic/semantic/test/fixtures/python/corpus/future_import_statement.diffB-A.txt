@@ -1,0 +1,22 @@
+(Statements
+  (FutureImport
+    (Alias
+    { (Identifier)
+    ->(Identifier) }
+    { (Identifier)
+    ->(Identifier) }))
+  (FutureImport
+    (Alias
+      (Identifier)
+      (Identifier))
+    (Alias
+    { (Identifier)
+    ->(Identifier) }
+    { (Identifier)
+    ->(Identifier) }))
+  (FutureImport
+    (Alias
+    { (Identifier)
+    ->(Identifier) }
+    { (Identifier)
+    ->(Identifier) })))

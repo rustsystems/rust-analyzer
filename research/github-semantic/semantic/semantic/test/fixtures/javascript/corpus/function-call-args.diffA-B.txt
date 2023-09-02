@@ -1,0 +1,39 @@
+(Statements
+  (Call
+    (Identifier)
+    (Float)
+  { (TextElement)
+  ->(TextElement) }
+    (Function
+      (Empty)
+      (Empty)
+      (Empty)
+    {-(RequiredParameter
+      {-(Empty)-}
+      {-(Empty)-}
+      {-(Identifier)-}
+      {-(Empty)-})-}
+      (RequiredParameter
+        (Empty)
+        (Empty)
+        (Identifier)
+        (Empty))
+    {+(RequiredParameter
+      {+(Empty)+}
+      {+(Empty)+}
+      {+(Identifier)+}
+      {+(Empty)+})+}
+      (StatementBlock
+        (Call
+          (MemberAccess
+            (Identifier)
+            (Identifier))
+        { (Identifier)
+        ->(Identifier) }
+          (Empty))
+        (Return
+        { (Identifier)
+        ->(Identifier) })))
+  { (Boolean)
+  ->(Boolean) }
+    (Empty)))

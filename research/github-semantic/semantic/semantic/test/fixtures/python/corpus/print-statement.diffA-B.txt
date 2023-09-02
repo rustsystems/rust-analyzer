@@ -1,0 +1,30 @@
+(Statements
+  (Call
+    (Identifier)
+  {+(Identifier)+}
+    (Identifier)
+  {-(Identifier)-}
+    (Empty))
+  (Call
+    (Identifier)
+  { (Identifier)
+  ->(Identifier) }
+    (Empty))
+  (Call
+    (Identifier)
+    (Or
+      (Integer)
+      (Integer))
+    (Empty))
+  (Call
+    (Identifier)
+  {-(Or
+    {-(Integer)-}
+    {-(Integer)-})-}
+    (Or
+      (Integer)
+      (Integer))
+  {+(Or
+    {+(Integer)+}
+    {+(Integer)+})+}
+    (Empty)))

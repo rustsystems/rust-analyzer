@@ -1,0 +1,11 @@
+(Statements
+  (VariableDeclaration
+    (Assignment
+      (Annotation
+      { (ArrayType
+        {-(TypeIdentifier)-})
+      ->(FunctionType
+        {+(Empty)+}
+        {+(TypeIdentifier)+}) })
+      (Identifier)
+      (Empty))))

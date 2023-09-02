@@ -1,0 +1,13 @@
+(Statements
+  (Function
+    (Empty)
+  {+(Identifier)+}
+  {+(Identifier)+}
+  {+(Identifier)+}
+    (Function
+      (Empty)
+    { (Send
+      {-(Identifier)-})
+    ->(Statements
+      {+(Integer)+}
+      {+(Integer)+}) })))

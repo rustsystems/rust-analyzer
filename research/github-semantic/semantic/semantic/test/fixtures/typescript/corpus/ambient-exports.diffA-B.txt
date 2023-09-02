@@ -1,0 +1,26 @@
+(Statements
+  (DefaultExport
+  { (Class
+    {-(TypeIdentifier)-}
+    {-(Statements)-})
+  ->(Function
+    {+(Empty)+}
+    {+(Empty)+}
+    {+(Identifier)+}
+    {+(RequiredParameter
+      {+(Empty)+}
+      {+(Annotation
+        {+(PredefinedType)+})+}
+      {+(Identifier)+}
+      {+(Empty)+})+}
+    {+(RequiredParameter
+      {+(Empty)+}
+      {+(Annotation
+        {+(PredefinedType)+})+}
+      {+(Identifier)+}
+      {+(Empty)+})+}
+    {+(StatementBlock
+      {+(Return
+        {+(Hash
+          {+(ShorthandPropertyIdentifier)+}
+          {+(ShorthandPropertyIdentifier)+})+})+})+}) }))

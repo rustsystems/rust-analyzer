@@ -1,0 +1,20 @@
+(Statements
+  (For
+    (And
+      (Member
+      { (Identifier)
+      ->(Identifier) }
+        (Identifier))
+      (Assignment
+        (Identifier)
+        (Float)))
+    (LessThan
+      (Identifier)
+      (Identifier))
+    (Update
+      (Identifier))
+    (Statements
+      (Call
+      { (Identifier)
+      ->(Identifier) }
+        (Empty)))))

@@ -1,0 +1,5 @@
+(Statements
+  (RShift
+    (Identifier)
+  { (Identifier)
+  ->(Identifier) }))

@@ -1,0 +1,41 @@
+(Statements
+  (Package
+    (Identifier))
+  (Function
+    (Identifier)
+    (Statements
+      (Type
+      { (Identifier)
+      ->(Identifier) }
+        (BidirectionalChannel
+          (ReceiveChannel
+          { (Identifier)
+          ->(Identifier) })))
+      (Type
+      { (Identifier)
+      ->(Identifier) }
+        (SendChannel
+          (SendChannel
+            (Constructor
+              (Empty)
+              (Statements)))))
+      (Type
+      { (Identifier)
+      ->(Identifier) }
+        (SendChannel
+          (ReceiveChannel
+          { (Identifier)
+          ->(Identifier) })))
+      (Type
+        (Identifier)
+        (ReceiveChannel
+          (ReceiveChannel
+          { (Identifier)
+          ->(Identifier) })))
+      (Type
+        (Identifier)
+        (BidirectionalChannel
+          (Parenthesized
+            (ReceiveChannel
+            { (Identifier)
+            ->(Identifier) })))))))

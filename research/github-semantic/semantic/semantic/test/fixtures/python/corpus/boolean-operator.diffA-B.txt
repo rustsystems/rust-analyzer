@@ -1,0 +1,12 @@
+(Statements
+{+(Or
+  {+(Identifier)+}
+  {+(Identifier)+})+}
+  (And
+  { (Identifier)
+  ->(Identifier) }
+  { (Identifier)
+  ->(Identifier) })
+{-(Or
+  {-(Identifier)-}
+  {-(Identifier)-})-})

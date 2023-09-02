@@ -1,0 +1,28 @@
+(Statements
+  (Package
+    (Identifier))
+  (Statements
+    (Assignment
+      (Identifier)
+    { (Rune)
+    ->(Rune) })
+    (Assignment
+      (Identifier)
+    { (Rune)
+    ->(Rune) })
+    (Assignment
+      (Identifier)
+    { (Rune)
+    ->(Rune) })
+    (Assignment
+      (Identifier)
+    { (Rune)
+    ->(Rune) })
+    (Assignment
+      (Identifier)
+    { (Rune)
+    ->(Rune) })
+    (Assignment
+      (Identifier)
+    { (Rune)
+    ->(Rune) })))

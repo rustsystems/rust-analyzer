@@ -1,0 +1,7 @@
+(Statements
+{+(Send
+  {+(Identifier)+})+}
+  (ScopeEntry
+    (Send
+    { (Identifier)
+    ->(Identifier) })))

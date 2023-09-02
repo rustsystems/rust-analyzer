@@ -1,0 +1,41 @@
+(Statements
+  (Package
+    (Identifier))
+  (Function
+    (Identifier)
+    (Statements
+      (Call
+        (Identifier)
+        (SendChannel
+        { (Identifier)
+        ->(Identifier) })
+        (Empty))
+      (Call
+        (Identifier)
+        (Statements
+          (SendChannel
+          { (Identifier)
+          ->(Identifier) })
+          (Minus
+            (Identifier)
+            (Identifier)))
+        (Empty))
+      (Call
+        (Identifier)
+        (Statements
+          (SendChannel
+          { (Identifier)
+          ->(Identifier) })
+        { (Integer)
+        ->(Integer) }
+        { (Integer)
+        ->(Integer) })
+        (Empty))
+      (Call
+        (Identifier)
+        (Map
+        { (Identifier)
+        ->(Identifier) }
+        { (Identifier)
+        ->(Identifier) })
+        (Empty)))))

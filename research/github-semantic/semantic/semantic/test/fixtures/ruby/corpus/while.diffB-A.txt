@@ -1,0 +1,12 @@
+(Statements
+  (While
+    (Send
+      (Identifier))
+  { (Send
+    {-(Identifier)-})
+  ->(Statements) })
+{+(While
+  {+(Send
+    {+(Identifier)+})+}
+  {+(Send
+    {+(Identifier)+})+})+})

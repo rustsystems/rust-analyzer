@@ -1,0 +1,12 @@
+(Statements
+  (VariableDeclaration
+    (Assignment
+      (Annotation
+      { (Intersection
+        {-(TypeIdentifier)-}
+        {-(TypeIdentifier)-})
+      ->(Tuple
+        {+(TypeIdentifier)+}
+        {+(TypeIdentifier)+}) })
+      (Identifier)
+      (Empty))))

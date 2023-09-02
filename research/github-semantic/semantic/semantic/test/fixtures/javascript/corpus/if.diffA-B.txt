@@ -1,0 +1,14 @@
+(Statements
+  (If
+  { (Identifier)
+  ->(MemberAccess
+    {+(Identifier)+}
+    {+(Identifier)+}) }
+    (Statements
+      (Call
+        (Identifier)
+      { (Identifier)
+      ->(Identifier) }
+        (Empty))
+    {+(Identifier)+})
+    (Empty)))

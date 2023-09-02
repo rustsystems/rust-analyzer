@@ -1,0 +1,11 @@
+(Statements
+  (VariableDeclaration
+    (Assignment
+      (Empty)
+      (Hash
+        (Assignment
+        { (ShorthandPropertyIdentifier)
+        ->(ShorthandPropertyIdentifier) }
+        { (Float)
+        ->(Float) }))
+      (Identifier))))

@@ -1,0 +1,23 @@
+(Statements
+  (Call
+    (MemberAccess
+      (This)
+    { (Identifier)
+    ->(Identifier) })
+    (Function
+      (Empty)
+      (Empty)
+      (Empty)
+      (RequiredParameter
+        (Empty)
+        (Empty)
+        (Identifier)
+        (Empty))
+      (StatementBlock
+        (Return
+          (MemberAccess
+          { (Identifier)
+          ->(Identifier) }
+          { (Identifier)
+          ->(Identifier) }))))
+    (Empty)))

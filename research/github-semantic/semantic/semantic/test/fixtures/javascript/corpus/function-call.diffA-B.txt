@@ -1,0 +1,7 @@
+(Statements
+  (Call
+    (Identifier)
+    (Identifier)
+  { (TextElement)
+  ->(TextElement) }
+    (Empty)))

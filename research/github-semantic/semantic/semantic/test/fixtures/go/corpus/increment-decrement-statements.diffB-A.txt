@@ -1,0 +1,13 @@
+(Statements
+  (Package
+    (Identifier))
+  (Function
+    (Identifier)
+    (Statements
+      (PostIncrement
+      { (Identifier)
+      ->(Identifier) })
+    {+(PostDecrement
+      {+(Identifier)+})+}
+    {-(PostIncrement
+      {-(Identifier)-})-})))

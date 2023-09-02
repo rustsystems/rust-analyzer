@@ -1,0 +1,5 @@
+(Statements
+  (MemberAccess
+    (Identifier)
+  { (Identifier)
+  ->(Identifier) }))

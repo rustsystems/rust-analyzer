@@ -1,0 +1,14 @@
+(Statements
+  (Try
+    (Statements
+      (Identifier))
+    (Catch
+      (Empty)
+      (Statements
+      { (Identifier)
+      ->(Identifier) }))
+    (Finally
+      (Statements
+      { (Identifier)
+      ->(Identifier) })))
+  (Empty))

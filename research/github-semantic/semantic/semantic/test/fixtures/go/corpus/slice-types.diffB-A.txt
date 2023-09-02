@@ -1,0 +1,20 @@
+(Statements
+  (Package
+    (Identifier))
+  (Function
+    (Identifier)
+    (Statements
+      (Statements
+        (Type
+          (Identifier)
+          (Slice
+          { (Slice
+            {-(Identifier)-})
+          ->(Identifier) })))
+      (Statements
+        (Type
+          (Identifier)
+          (Slice
+          { (Identifier)
+          ->(Slice
+            {+(Identifier)+}) }))))))

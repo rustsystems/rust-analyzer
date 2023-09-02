@@ -1,0 +1,6 @@
+(Statements
+  (Subscript
+  { (Identifier)
+  ->(Identifier) }
+  { (Identifier)
+  ->(Identifier) }))

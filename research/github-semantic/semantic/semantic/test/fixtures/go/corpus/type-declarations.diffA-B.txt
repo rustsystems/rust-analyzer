@@ -1,0 +1,52 @@
+(Statements
+  (Package
+    (Identifier))
+  (Function
+    (Identifier)
+    (Statements
+      (Statements
+        (Type
+        { (Identifier)
+        ->(Identifier) }
+        { (Identifier)
+        ->(Identifier) }))
+      (Statements
+        (Type
+        { (Identifier)
+        ->(Identifier) }
+        { (Identifier)
+        ->(Identifier) })
+        (Type
+        { (Identifier)
+        ->(Identifier) }
+        { (Identifier)
+        ->(Identifier) }))
+      (Statements
+        (Context
+          (Comment)
+          (Type
+          { (Identifier)
+          ->(Identifier) }
+            (Constructor
+              (Empty)
+              (Statements
+                (Field
+                  (Identifier)
+                  (Statements
+                    (Identifier)))
+                (Field
+                  (Identifier)
+                  (Statements
+                    (Identifier)))
+                (Field
+                  (Identifier)
+                  (Statements
+                    (Identifier)))))))
+        (Type
+        { (Identifier)
+        ->(Identifier) }
+          (Interface
+            (Statements)))
+        (Context
+          (Comment)
+          (Empty))))))

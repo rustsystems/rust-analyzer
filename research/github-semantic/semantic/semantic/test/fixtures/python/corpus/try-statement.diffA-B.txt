@@ -1,0 +1,65 @@
+(Statements
+  (Try
+  { (Statements
+    {-(Identifier)-}
+    {-(Identifier)-})
+  ->(Identifier) }
+  {+(Finally
+    {+(Identifier)+})+}
+  {-(Catch
+    {-(Statements
+      {-(Identifier)-}
+      {-(Statements
+        {-(Identifier)-}
+        {-(Identifier)-})-})-}
+    {-(Statements)-})-}
+  {-(Catch
+    {-(Let
+      {-(Identifier)-}
+      {-(Identifier)-}
+      {-(Empty)-})-}
+    {-(Statements
+      {-(Identifier)-}
+      {-(Identifier)-})-})-}
+  {-(Catch
+    {-(Statements
+      {-(Identifier)-}
+      {-(Identifier)-}
+      {-(Statements
+        {-(Identifier)-}
+        {-(Identifier)-})-})-}
+    {-(Statements)-})-}
+  {-(Catch
+    {-(Statements
+      {-(Identifier)-}
+      {-(Identifier)-})-}
+    {-(Statements)-})-})
+  (Try
+  { (Statements
+    {-(Identifier)-}
+    {-(Identifier)-})
+  ->(Identifier) }
+  {+(Catch
+    {+(Statements
+      {+(Identifier)+}
+      {+(Identifier)+})+}
+    {+(Statements)+})+}
+  {+(Catch
+    {+(Let
+      {+(Identifier)+}
+      {+(Identifier)+}
+      {+(Empty)+})+}
+    {+(Identifier)+})+}
+  {+(Catch
+    {+(Statements
+      {+(Identifier)+}
+      {+(Identifier)+}
+      {+(Identifier)+})+}
+    {+(Statements)+})+}
+  {+(Catch
+    {+(Identifier)+}
+    {+(Statements)+})+}
+  {-(Finally
+    {-(Statements
+      {-(Identifier)-}
+      {-(Identifier)-})-})-}))

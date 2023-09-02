@@ -1,0 +1,13 @@
+(Statements
+  (ForEach
+  { (Identifier)
+  ->(Identifier) }
+  { (Identifier)
+  ->(Identifier) }
+    (Statements
+      (Call
+        (Identifier)
+      { (Identifier)
+      ->(Identifier) }
+        (Empty))))
+  (Empty))

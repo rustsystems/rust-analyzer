@@ -1,0 +1,19 @@
+(Statements
+{+(LowPrecedenceAnd
+  {+(Send
+    {+(Identifier)+})+}
+  {+(Send
+    {+(Identifier)+})+})+}
+{-(LowPrecedenceOr
+  {-(Send
+    {-(Identifier)-})-}
+  {-(Send
+    {-(Identifier)-})-})-}
+{-(LowPrecedenceAnd
+  {-(LowPrecedenceOr
+    {-(Send
+      {-(Identifier)-})-}
+    {-(Send
+      {-(Identifier)-})-})-}
+  {-(Send
+    {-(Identifier)-})-})-})

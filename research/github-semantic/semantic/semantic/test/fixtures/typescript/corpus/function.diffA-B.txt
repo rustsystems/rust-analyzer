@@ -1,0 +1,26 @@
+(Statements
+  (Function
+  {+(Empty)+}
+  {+(Annotation
+    {+(TypeIdentifier)+})+}
+  {-(TypeParameters
+    {-(TypeParameter
+      {-(TypeIdentifier)-}
+      {-(Empty)-}
+      {-(Empty)-})-})-}
+  {-(Annotation
+    {-(PredefinedType)-})-}
+    (Empty)
+    (RequiredParameter
+      (Empty)
+      (Empty)
+      (Identifier)
+      (Empty))
+    (RequiredParameter
+      (Empty)
+      (Empty)
+      (Identifier)
+      (Empty))
+    (StatementBlock
+    { (Identifier)
+    ->(Identifier) })))

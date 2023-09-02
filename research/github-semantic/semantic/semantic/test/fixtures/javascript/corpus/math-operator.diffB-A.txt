@@ -1,0 +1,12 @@
+(Statements
+  (Minus
+    (Plus
+      (Identifier)
+      (Times
+        (Identifier)
+      { (Float)
+      ->(Float) }))
+    (Modulo
+      (Identifier)
+    { (Float)
+    ->(Float) })))

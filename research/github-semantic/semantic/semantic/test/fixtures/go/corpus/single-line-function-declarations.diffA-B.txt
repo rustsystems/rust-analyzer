@@ -1,0 +1,37 @@
+(Statements
+  (Package
+    (Identifier))
+  (Function
+    (Identifier)
+    (Statements))
+  (Function
+  { (Identifier)
+  ->(Identifier) }
+    (Call
+      (Identifier)
+      (Statements)
+      (Empty)))
+  (Function
+  { (Identifier)
+  ->(Identifier) }
+    (Statements
+      (Call
+        (Identifier)
+        (Statements)
+        (Empty))
+      (Call
+        (Identifier)
+        (Statements)
+        (Empty))))
+  (Function
+  { (Identifier)
+  ->(Identifier) }
+    (Statements
+      (Call
+        (Identifier)
+        (Statements)
+        (Empty))
+      (Call
+        (Identifier)
+        (Statements)
+        (Empty)))))

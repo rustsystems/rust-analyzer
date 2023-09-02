@@ -1,0 +1,10 @@
+(Statements
+  (Package
+    (Identifier))
+  (Function
+    (Identifier)
+    (Send
+    { (Identifier)
+    ->(Identifier) }
+    { (Integer)
+    ->(Integer) })))

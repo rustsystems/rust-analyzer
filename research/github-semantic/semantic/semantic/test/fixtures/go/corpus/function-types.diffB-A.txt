@@ -1,0 +1,32 @@
+(Statements
+  (Package
+    (Identifier))
+  (Function
+    (Identifier)
+    (Statements
+      (Type
+      { (Identifier)
+      ->(Identifier) }
+        (Function
+          (Statements
+          { (Identifier)
+          ->(Identifier) })
+        { (Identifier)
+        ->(Identifier) }))
+      (Type
+      { (Identifier)
+      ->(Identifier) }
+        (Function
+        {-(Statements
+          {-(Identifier)-})-}
+          (Statements
+            (Identifier))
+        {+(Statements
+          {+(Identifier)+})+}
+          (Statements
+            (Statements
+            {+(Identifier)+}
+            {-(BidirectionalChannel
+              {-(Identifier)-})-})
+            (Statements
+              (Identifier))))))))

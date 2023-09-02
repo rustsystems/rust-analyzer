@@ -1,0 +1,10 @@
+(Statements
+{+(Complement
+  {+(Identifier)+})+}
+  (Negate
+  { (Identifier)
+  ->(Identifier) })
+{ (Identifier)
+->(Identifier) }
+{-(Complement
+  {-(Identifier)-})-})

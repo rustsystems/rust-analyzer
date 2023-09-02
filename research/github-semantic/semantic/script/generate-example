@@ -1,0 +1,70 @@
+#!/usr/bin/env bash
+#/ Usage: script/generate-example fileA fileB
+#/        script/generate-example directory
+#/
+#/ Generate expected output for a test fixture example or directory of examples.
+#/
+#/ Example:
+#/  script/generate-example test/fixtures/ruby/corpus/and-or.{A,B}.rb
+#/  script/generate-example test/fixtures/ruby/corpus
+
+set -e
+[ $# -eq 0 ] && set -- --help
+
+if [[ $1 = -h || $1 = --help ]]; then
+  grep ^#/ <"$0" |cut -c4-
+  exit
+fi
+
+# Work out of the project root directory
+root=$(cd $(dirname "$0")/.. && pwd)
+cd "$root"
+
+count=0
+status () {
+  tput cuu 1 && tput el
+  echo "Generating $1"
+  ((count+=1))
+}
+
+generate_example () {
+  fileA="$1"
+  fileB="$2"
+  parseFileA="${fileA%%.*}.parseA.txt"
+  parseFileB="${fileB%%.*}.parseB.txt"
+  diffFileAB="${fileA%%.*}.diffA-B.txt"
+  diffFileBA="${fileB%%.*}.diffB-A.txt"
+
+  if [ -e "$fileA" ]; then
+    status $parseFileA
+    cabal v2-run --verbose=0 semantic -- parse --sexpression $fileA > $parseFileA
+  fi
+
+  if [ -e "$fileB" ]; then
+    status $parseFileB
+    cabal v2-run --verbose=0 semantic -- parse --sexpression $fileB > $parseFileB
+  fi
+
+  if [ -e "$fileA" -a -e "$fileB" ]; then
+    status $diffFileAB
+    cabal v2-run --verbose=0 semantic -- diff --sexpression $fileA $fileB > $diffFileAB
+
+    status $diffFileBA
+    cabal v2-run --verbose=0 semantic -- diff --sexpression $fileB $fileA > $diffFileBA
+  fi
+}
+
+if [[ -d $1 ]]; then
+  echo "Generating all examples for $1"
+  echo ""
+  for f in $(ls $1/*.A.*); do
+    # echo "${f%%.*}.B."${f##*.}""
+    generate_example $f "${f%%.*}.B."${f##*.}""
+  done
+else
+  echo "Generating examples just for $1 $2"
+  echo ""
+  generate_example $1 $2
+fi
+
+echo "Done. Generated $count examples."

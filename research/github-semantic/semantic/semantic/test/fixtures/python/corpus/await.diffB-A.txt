@@ -1,0 +1,13 @@
+(Statements
+  (Call
+    (Identifier)
+    (Plus
+    { (Integer)
+    ->(Integer) }
+      (Integer))
+    (Empty))
+  (Call
+    (Identifier)
+  { (Identifier)
+  ->(Identifier) }
+    (Empty)))

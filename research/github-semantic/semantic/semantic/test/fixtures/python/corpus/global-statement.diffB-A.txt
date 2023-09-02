@@ -1,0 +1,12 @@
+(Statements
+  (Call
+    (Identifier)
+  {-(Identifier)-}
+    (Identifier)
+    (Empty))
+  (Call
+    (Identifier)
+  { (Identifier)
+  ->(Identifier) }
+  {+(Identifier)+}
+    (Empty)))

@@ -1,0 +1,21 @@
+(Statements
+  (Package
+    (Identifier))
+  (Function
+    (Identifier)
+    (Assignment
+      (Identifier)
+      (Reference
+        (Composite
+          (Identifier)
+          (Statements
+            (KeyValue
+            { (Identifier)
+            ->(Identifier) }
+            { (Identifier)
+            ->(Call
+              {+(Identifier)+}
+              {+(MemberAccess
+                {+(Identifier)+}
+                {+(Identifier)+})+}
+              {+(Empty)+}) })))))))

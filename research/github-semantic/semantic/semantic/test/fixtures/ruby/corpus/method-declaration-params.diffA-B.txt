@@ -1,0 +1,8 @@
+(Statements
+  (Method
+    (Empty)
+    (Identifier)
+    (Identifier)
+  {+(Identifier)+}
+  {+(Identifier)+}
+    (Statements)))

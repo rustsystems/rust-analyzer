@@ -1,0 +1,11 @@
+(Statements
+  (Require
+  { (TextElement)
+  ->(TextElement) })
+  (Send
+  { (Identifier)
+  ->(Identifier) }
+  {+(Send
+    {+(Identifier)+})+}
+  {-(SymbolElement)-}
+  {-(TextElement)-}))

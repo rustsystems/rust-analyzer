@@ -1,0 +1,9 @@
+(Statements
+  (Array
+    (TextElement)
+  {+(TextElement)+}
+  {-(String
+    {-(InterpolationElement
+      {-(Send
+        {-(Identifier)-})-})-})-}
+  {-(TextElement)-}))

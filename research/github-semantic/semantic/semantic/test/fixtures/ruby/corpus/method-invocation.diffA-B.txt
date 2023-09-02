@@ -1,0 +1,16 @@
+(Statements
+  (Send
+    (Identifier)
+  {+(TextElement)+})
+  (Send
+    (Send
+      (Identifier))
+    (Identifier))
+  (Send
+    (Identifier)
+  {+(Integer)+}
+  {+(Integer)+})
+{+(Send
+  {+(Identifier)+}
+  {+(Integer)+}
+  {+(Integer)+})+})

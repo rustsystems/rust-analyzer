@@ -1,0 +1,11 @@
+(Statements
+  (If
+    (Send
+    { (Identifier)
+    ->(Identifier) })
+    (Send
+    { (Identifier)
+    ->(Identifier) })
+    (Send
+    { (Identifier)
+    ->(Identifier) })))

@@ -1,0 +1,11 @@
+(Statements
+  (Symbol
+    (InterpolationElement
+      (Send
+      { (Identifier)
+      ->(Identifier) })))
+  (String
+    (InterpolationElement
+      (Send
+      { (Identifier)
+      ->(Identifier) }))))

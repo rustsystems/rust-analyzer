@@ -1,0 +1,50 @@
+(Statements
+  (Package
+    (Identifier))
+  (Function
+    (Identifier)
+    (Statements
+      (Statements
+        (Type
+        { (Identifier)
+        ->(Identifier) }
+          (Constructor
+            (Empty)
+            (Statements))))
+      (Statements
+        (Type
+        { (Identifier)
+        ->(Identifier) }
+          (Constructor
+            (Empty)
+            (Field
+              (Identifier)
+              (Statements)))))
+      (Statements
+        (Type
+        { (Identifier)
+        ->(Identifier) }
+          (Constructor
+            (Empty)
+            (Field
+              (Identifier)
+              (Statements
+                (Identifier)
+                (Identifier))))))
+      (Statements
+        (Type
+        { (Identifier)
+        ->(Identifier) }
+          (Constructor
+            (Empty)
+            (Statements
+              (Field
+                (Statements
+                  (MemberAccess
+                    (Identifier)
+                    (Identifier))))
+              (Field
+                (Identifier)
+                (TextElement)
+                (Statements
+                  (Identifier))))))))))

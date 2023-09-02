@@ -1,0 +1,7 @@
+(Statements
+  (Assignment
+    (Subscript
+      (Identifier)
+      (TextElement))
+  { (Float)
+  ->(Float) }))

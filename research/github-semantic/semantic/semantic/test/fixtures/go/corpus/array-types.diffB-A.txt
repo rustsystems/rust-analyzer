@@ -1,0 +1,41 @@
+(Statements
+  (Package
+    (Identifier))
+  (Function
+    (Identifier)
+    (Statements
+      (Statements
+        (Type
+          (Identifier)
+          (Array
+            (Plus
+            { (Integer)
+            ->(Integer) }
+            { (Integer)
+            ->(Integer) })
+          { (Identifier)
+          ->(Identifier) })))
+      (Statements
+        (Type
+        { (Identifier)
+        ->(Identifier) }
+          (Array
+          { (Integer)
+          ->(Integer) }
+            (Array
+            { (Integer)
+            ->(Integer) }
+              (Identifier)))))
+      (Statements
+        (Type
+        { (Identifier)
+        ->(Identifier) }
+          (Array
+          { (Integer)
+          ->(Integer) }
+            (Array
+              (Integer)
+              (Array
+              { (Integer)
+              ->(Integer) }
+                (Identifier)))))))))

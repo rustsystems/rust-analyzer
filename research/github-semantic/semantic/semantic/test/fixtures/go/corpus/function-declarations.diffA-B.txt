@@ -1,0 +1,66 @@
+(Statements
+  (Package
+    (Identifier))
+  (Function
+    (Identifier)
+    (Statements))
+  (Function
+  { (Identifier)
+  ->(Identifier) }
+    (Statements))
+  (Function
+    (Identifier)
+  { (Identifier)
+  ->(Identifier) }
+    (Statements
+      (Identifier)
+      (Identifier))
+    (Statements
+      (Identifier)
+      (Identifier)
+      (Identifier)
+      (Identifier))
+    (Statements))
+  (Function
+    (Statements
+      (Statements
+        (Identifier))
+      (Statements
+        (Identifier)))
+  { (Identifier)
+  ->(Identifier) }
+    (Statements))
+  (Function
+    (Statements
+      (Statements
+        (Identifier)
+        (Identifier))
+      (Statements
+        (Identifier)
+        (Identifier)))
+  { (Identifier)
+  ->(Identifier) }
+    (Statements))
+  (Function
+  {+(Statements)+}
+  {-(Identifier)-}
+  { (Identifier)
+  ->(Identifier) }
+  { (Empty)
+  ->(NoOp
+    {+(Empty)+}) })
+{+(Function
+  {+(Identifier)+}
+  {+(Identifier)+}
+  {+(Empty)+})+}
+  (Function
+    (Context
+      (Comment)
+      (Empty))
+  { (Identifier)
+  ->(Identifier) }
+    (Statements
+      (Identifier)
+      (Pointer
+        (Identifier)))
+    (Statements)))

@@ -1,0 +1,15 @@
+(Statements
+  (VariableDeclaration
+    (Assignment
+      (Empty)
+      (Identifier)
+    { (Float)
+    ->(Empty) })
+  {+(Assignment
+    {+(Empty)+}
+    {+(Identifier)+}
+    {+(Hash)+})+}
+  {+(Assignment
+    {+(Empty)+}
+    {+(Identifier)+}
+    {+(Empty)+})+}))

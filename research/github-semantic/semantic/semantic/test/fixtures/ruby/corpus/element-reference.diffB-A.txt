@@ -1,0 +1,21 @@
+(Statements
+  (Subscript
+    (Send
+    { (Identifier)
+    ->(Identifier) })
+  {+(Send
+    {+(Identifier)+})+}
+  {-(TextElement)-})
+  (Subscript
+    (Send
+    { (Identifier)
+    ->(Identifier) })
+  { (SymbolElement)
+  ->(SymbolElement) })
+{+(Assignment
+  {+(Subscript
+    {+(Send
+      {+(Identifier)+})+}
+    {+(Send
+      {+(Identifier)+})+})+}
+  {+(Integer)+})+})

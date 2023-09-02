@@ -1,0 +1,23 @@
+(Statements
+  (Statements
+  {-(QualifiedImport
+    {-(Identifier)-})-}
+    (QualifiedImport
+      (Identifier))
+  {+(QualifiedAliasedImport
+    {+(Identifier)+})+})
+{+(Statements
+  {+(QualifiedAliasedImport
+    {+(Identifier)+})+}
+  {+(QualifiedImport
+    {+(Identifier)+})+})+}
+{+(QualifiedImport
+  {+(Identifier)+}
+  {+(Identifier)+}
+  {+(Identifier)+})+}
+{-(QualifiedAliasedImport
+  {-(Identifier)-})-}
+{-(QualifiedImport
+  {-(Identifier)-}
+  {-(Identifier)-}
+  {-(Identifier)-})-})

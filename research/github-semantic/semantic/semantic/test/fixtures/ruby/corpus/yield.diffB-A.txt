@@ -1,0 +1,5 @@
+(Statements
+  (Yield
+  { (Empty)
+  ->(Send
+    {+(Identifier)+}) }))

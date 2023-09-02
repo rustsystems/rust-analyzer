@@ -1,0 +1,17 @@
+(Statements
+  (Package
+    (Identifier))
+  (Function
+    (Identifier)
+    (Statements
+      (Type
+        (Identifier)
+        (Pointer
+        { (Identifier)
+        ->(Identifier) }))
+      (Type
+        (Identifier)
+        (Pointer
+          (Pointer
+          { (Identifier)
+          ->(Identifier) }))))))

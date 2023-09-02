@@ -1,0 +1,22 @@
+(Statements
+  (Function
+    (Empty)
+    (Empty)
+  { (Identifier)
+  ->(Identifier) }
+    (RequiredParameter
+      (Empty)
+      (Empty)
+      (Identifier)
+      (Empty))
+    (RequiredParameter
+      (Empty)
+      (Empty)
+      (Identifier)
+      (Empty))
+    (StatementBlock
+      (Yield
+        (Empty))
+      (Yield
+        (Identifier))))
+  (Empty))

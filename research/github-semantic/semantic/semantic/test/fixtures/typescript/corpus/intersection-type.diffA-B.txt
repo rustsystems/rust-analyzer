@@ -1,0 +1,12 @@
+(Statements
+  (VariableDeclaration
+    (Assignment
+      (Annotation
+      { (Union
+        {-(TypeIdentifier)-}
+        {-(TypeIdentifier)-})
+      ->(Intersection
+        {+(TypeIdentifier)+}
+        {+(TypeIdentifier)+}) })
+      (Identifier)
+      (Empty))))

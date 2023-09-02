@@ -1,0 +1,25 @@
+(Statements
+  (InterfaceDeclaration
+  {+(TypeParameters
+    {+(TypeParameter
+      {+(TypeIdentifier)+}
+      {+(Empty)+}
+      {+(Empty)+})+})+}
+  {-(Empty)-}
+  { (TypeIdentifier)
+  ->(TypeIdentifier) }
+    (ObjectType
+      (PropertySignature
+        (Empty)
+        (Annotation
+          (LiteralType
+          { (TextElement)
+          ->(TextElement) }))
+        (Identifier))
+      (PropertySignature
+        (Readonly)
+        (Annotation
+        { (TypeIdentifier)
+        ->(TypeIdentifier) })
+      { (Identifier)
+      ->(Identifier) }))))

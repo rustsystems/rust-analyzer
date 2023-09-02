@@ -1,0 +1,17 @@
+(Statements
+  (Package
+    (Identifier))
+  (Function
+    (Identifier)
+    (Statements
+      (TypeAlias
+      { (Identifier)
+      ->(Identifier) }
+        (Slice
+          (Pointer
+            (Identifier))))
+      (TypeAlias
+      { (Identifier)
+      ->(Identifier) }
+      { (Identifier)
+      ->(Identifier) }))))

@@ -1,0 +1,127 @@
+syntax = "proto3";
+
+package github.semantic;
+
+option ruby_package = "Semantic::Proto";
+
+message PingRequest {
+  string service = 1;
+}
+
+message PingResponse {
+  string status = 1;
+  string hostname = 2;
+  string timestamp = 3;
+  string sha = 4;
+}
+
+message ParseTreeRequest {
+  repeated Blob blobs = 1;
+}
+
+message ParseTreeSymbolResponse {
+  repeated File files = 1;
+}
+
+message StackGraphRequest {
+  repeated Blob blobs = 1;
+}
+
+message StackGraphResponse {
+  repeated StackGraphFile files = 1;
+}
+
+message ParseError {
+  string error = 1;
+}
+
+message Blob {
+  string content = 1;
+  string path = 2;
+  string language = 3;
+}
+
+message File {
+  string path = 1;
+  string language = 2;
+  repeated Symbol symbols = 3;
+  repeated ParseError errors = 4;
+  string blob_oid = 5;
+}
+
+message Symbol {
+  string symbol = 1;
+  string kind = 2;
+  string line = 3;
+  Span span = 4;
+  Docstring docs = 5;
+  NodeType node_type = 6;
+  SyntaxType syntax_type = 7;
+  Span utf16_code_unit_span = 8;
+  ByteRange byte_range = 9;
+}
+
+message Docstring {
+  string docstring = 1;
+}
+
+message Position {
+  int32 line = 1;
+  int32 column = 2;
+}
+
+message Span {
+  Position start = 1;
+  Position end = 2;
+}
+
+message ByteRange {
+  int32 start = 1;
+  int32 end = 2;
+}
+
+message StackGraphFile {
+  string path = 1;
+  string language = 2;
+  repeated StackGraphNode nodes = 3;
+  repeated StackGraphPath paths = 4;
+  repeated ParseError errors = 5;
+}
+
+enum NodeType {
+  ROOT_SCOPE = 0;
+  JUMP_TO_SCOPE = 1;
+  EXPORTED_SCOPE = 2;
+  DEFINITION = 3;
+  REFERENCE = 4;
+}
+
+enum SyntaxType {
+  FUNCTION = 0;
+  METHOD = 1;
+  CLASS = 2;
+  MODULE = 3;
+  CALL = 4;
+  TYPE = 5;
+  INTERFACE = 6;
+  IMPLEMENTATION = 7;
+}
+
+message StackGraphNode {
+  int64 id = 1;
+  string name = 2;
+  string line = 3;
+  Span span = 4;
+  SyntaxType syntax_type = 5;
+  NodeType node_type = 6;
+}
+
+message StackGraphPath {
+  repeated string starting_symbol_stack = 1;
+  int64 starting_scope_stack_size = 2;
+  int64 from = 3;
+  string edges = 4;
+  int64 to = 5;
+  repeated int64 ending_scope_stack = 6;
+  repeated string ending_symbol_stack = 7;
+}

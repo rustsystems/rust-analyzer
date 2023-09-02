@@ -1,0 +1,14 @@
+(Statements
+  (Class
+    (TypeIdentifier)
+    (Method
+    {+(Readonly)+}
+      (Empty)
+    {+(Annotation
+      {+(PredefinedType)+})+}
+    {-(Empty)-}
+    {-(Annotation
+      {-(TypeIdentifier)-})-}
+      (Empty)
+      (Identifier)
+      (StatementBlock))))

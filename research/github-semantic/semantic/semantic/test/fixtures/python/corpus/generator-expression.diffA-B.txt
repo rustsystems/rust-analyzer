@@ -1,0 +1,19 @@
+(Statements
+  (Comprehension
+  { (Identifier)
+  ->(Identifier) }
+    (Statements
+    { (Identifier)
+    ->(Identifier) }
+    { (Identifier)
+    ->(Identifier) }))
+  (Comprehension
+  { (Identifier)
+  ->(Plus
+    {+(Identifier)+}
+    {+(Integer)+}) }
+    (Statements
+    { (Identifier)
+    ->(Identifier) }
+    { (Identifier)
+    ->(Identifier) })))

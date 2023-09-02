@@ -1,0 +1,9 @@
+(Statements
+  (New
+    (MemberAccess
+      (Identifier)
+      (Identifier))
+    (Empty)
+    (Float)
+  { (TextElement)
+  ->(TextElement) }))

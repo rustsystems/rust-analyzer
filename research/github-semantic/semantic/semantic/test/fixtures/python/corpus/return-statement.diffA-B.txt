@@ -1,0 +1,20 @@
+(Statements
+{+(Return
+  {+(Statements
+    {+(Plus
+      {+(Identifier)+}
+      {+(Identifier)+})+}
+    {+(Identifier)+})+})+}
+  (Return
+    (Empty))
+  (Return
+  { (Statements
+    {-(Plus
+      {-(Identifier)-}
+      {-(Identifier)-})-}
+    {-(Identifier)-})
+  ->(Not
+    {+(Identifier)+}) })
+{-(Return
+  {-(Not
+    {-(Identifier)-})-})-})

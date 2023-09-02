@@ -1,0 +1,26 @@
+(Statements
+  (Package
+    (Identifier))
+  (Function
+    (Identifier)
+    (Statements
+      (Assignment
+        (Identifier)
+      { (Float)
+      ->(Float) })
+      (Assignment
+        (Identifier)
+      { (Float)
+      ->(Float) })
+      (Assignment
+        (Identifier)
+      { (Float)
+      ->(Float) })
+      (Assignment
+        (Identifier)
+      { (Float)
+      ->(Float) })
+      (Assignment
+        (Identifier)
+      { (Float)
+      ->(Float) }))))

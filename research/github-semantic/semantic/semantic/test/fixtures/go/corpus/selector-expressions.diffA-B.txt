@@ -1,0 +1,16 @@
+(Statements
+  (Package
+    (Identifier))
+  (Function
+    (Identifier)
+    (Call
+      (MemberAccess
+        (MemberAccess
+        { (Identifier)
+        ->(Identifier) }
+        { (Identifier)
+        ->(Identifier) })
+      { (Identifier)
+      ->(Identifier) })
+      (Statements)
+      (Empty))))

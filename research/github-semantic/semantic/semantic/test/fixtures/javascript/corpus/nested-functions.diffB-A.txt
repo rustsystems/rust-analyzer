@@ -1,0 +1,45 @@
+(Statements
+  (Function
+    (Empty)
+    (Empty)
+    (Identifier)
+    (RequiredParameter
+      (Empty)
+      (Empty)
+      (Identifier)
+      (Empty))
+    (RequiredParameter
+      (Empty)
+      (Empty)
+      (Identifier)
+      (Empty))
+    (StatementBlock
+      (Function
+        (Empty)
+        (Empty)
+        (Identifier)
+        (RequiredParameter
+          (Empty)
+          (Empty)
+          (Identifier)
+          (Empty))
+        (RequiredParameter
+          (Empty)
+          (Empty)
+          (Identifier)
+          (Empty))
+        (StatementBlock
+          (Call
+            (MemberAccess
+              (Identifier)
+              (Identifier))
+          { (Identifier)
+          ->(Identifier) }
+            (Empty))
+          (Call
+            (MemberAccess
+              (Identifier)
+              (Identifier))
+          { (Identifier)
+          ->(Identifier) }
+            (Empty)))))))

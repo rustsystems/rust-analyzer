@@ -1,0 +1,12 @@
+(Statements
+  (Package
+    (Identifier))
+  (Function
+    (Identifier)
+    (Statements
+      (Type
+        (Identifier)
+        (Map
+        { (Identifier)
+        ->(Identifier) }
+          (Identifier))))))

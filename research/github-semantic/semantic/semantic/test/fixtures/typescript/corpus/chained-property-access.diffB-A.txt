@@ -1,0 +1,23 @@
+(Statements
+  (Return
+    (Call
+      (MemberAccess
+        (Call
+          (MemberAccess
+            (Call
+              (MemberAccess
+                (Identifier)
+                (Identifier))
+              (Empty))
+            (Identifier))
+          (MemberAccess
+          { (Identifier)
+          ->(Identifier) }
+            (Identifier))
+          (Empty))
+        (Identifier))
+      (MemberAccess
+      { (Identifier)
+      ->(Identifier) }
+        (Identifier))
+      (Empty))))

@@ -1,0 +1,9 @@
+(Statements
+  (Package
+    (Identifier))
+  (Function
+    (Identifier)
+    (Context
+    { (Comment)
+    ->(Comment) }
+      (Empty))))

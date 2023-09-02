@@ -1,0 +1,27 @@
+(Statements
+  (Hash
+    (Method
+      (Empty)
+      (Empty)
+      (Empty)
+      (Empty)
+    { (Identifier)
+    ->(Identifier) }
+      (RequiredParameter
+        (Empty)
+        (Empty)
+        (Identifier)
+        (Empty))
+      (RequiredParameter
+        (Empty)
+        (Empty)
+        (Identifier)
+        (Empty))
+      (StatementBlock
+        (Return
+        { (Minus
+          {-(Identifier)-}
+          {-(Identifier)-})
+        ->(Plus
+          {+(Identifier)+}
+          {+(Identifier)+}) })))))

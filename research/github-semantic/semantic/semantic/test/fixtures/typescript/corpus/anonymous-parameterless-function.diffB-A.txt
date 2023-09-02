@@ -1,0 +1,9 @@
+(Statements
+  (Function
+    (Empty)
+    (Empty)
+    (Empty)
+    (StatementBlock
+      (Return
+      { (TextElement)
+      ->(TextElement) }))))

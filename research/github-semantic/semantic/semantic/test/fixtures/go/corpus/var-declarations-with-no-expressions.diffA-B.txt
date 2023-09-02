@@ -1,0 +1,22 @@
+(Statements
+  (Package
+    (Identifier))
+  (Function
+    (Identifier)
+    (Statements
+      (Assignment
+        (Annotation
+          (Statements
+          { (Identifier)
+          ->(Identifier) })
+          (Identifier))
+        (Statements))
+      (Assignment
+        (Annotation
+          (Statements
+          { (Identifier)
+          ->(Identifier) }
+          { (Identifier)
+          ->(Identifier) })
+          (Identifier))
+        (Statements)))))

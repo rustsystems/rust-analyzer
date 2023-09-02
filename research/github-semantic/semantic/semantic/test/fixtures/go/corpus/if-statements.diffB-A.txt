@@ -1,0 +1,92 @@
+(Statements
+  (Package
+    (Identifier))
+  (Function
+    (Identifier)
+    (Statements
+      (If
+        (Statements
+          (Call
+          { (Identifier)
+          ->(Identifier) }
+            (Statements)
+            (Empty)))
+        (Call
+          (Identifier)
+          (Statements)
+          (Empty))
+        (Empty))
+      (If
+        (Statements
+          (Assignment
+          { (Identifier)
+          ->(Identifier) }
+            (Call
+              (Identifier)
+              (Statements)
+              (Empty)))
+          (Identifier))
+        (Call
+          (Identifier)
+          (Statements)
+          (Empty))
+        (Empty))
+      (If
+        (Statements
+          (Call
+          { (Identifier)
+          ->(Identifier) }
+            (Statements)
+            (Empty)))
+        (Call
+          (Identifier)
+          (Statements)
+          (Empty))
+        (Call
+          (Identifier)
+          (Statements)
+          (Empty)))
+      (If
+        (Statements
+          (Assignment
+            (Identifier)
+          { (Integer)
+          ->(Integer) })
+          (LessThan
+            (Identifier)
+            (Integer)))
+        (Call
+        { (Identifier)
+        ->(Identifier) }
+          (Statements)
+          (Empty))
+      {-(Context
+        {-(Comment)-}
+          (If
+            (Statements
+              (LessThan
+                (Identifier)
+              { (Integer)
+              ->(Integer) }))
+            (Call
+            { (Identifier)
+            ->(Identifier) }
+              (Statements)
+              (Empty))
+          { (Call
+            {-(Identifier)-}
+            {-(Statements)-}
+            {-(Empty)-})
+          ->(Context
+            {+(Comment)+}
+            {+(If
+              {+(Statements
+                {+(Call
+                  {+(Identifier)+}
+                  {+(Statements)+}
+                  {+(Empty)+})+})+}
+              {+(Call
+                {+(Identifier)+}
+                {+(Statements)+}
+                {+(Empty)+})+}
+              {+(Empty)+})+}) }))-}))))

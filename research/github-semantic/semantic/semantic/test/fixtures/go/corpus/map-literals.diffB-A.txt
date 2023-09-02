@@ -1,0 +1,19 @@
+(Statements
+  (Package
+    (Identifier))
+  (Function
+    (Identifier)
+    (Assignment
+      (Identifier)
+      (Composite
+        (Map
+          (Identifier)
+        { (Identifier)
+        ->(Identifier) })
+        (Statements
+          (KeyValue
+            (TextElement)
+            (TextElement))
+          (KeyValue
+            (TextElement)
+            (TextElement)))))))

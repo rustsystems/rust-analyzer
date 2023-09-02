@@ -1,0 +1,18 @@
+(Statements
+{-(Identifier)-}
+{-(Plus
+  {-(Identifier)-}
+  {-(Identifier)-})-}
+  (Statements
+    (Integer)
+    (Integer)
+    (Integer))
+{+(Identifier)+}
+  (Statements
+  {+(Integer)+}
+    (Integer)
+    (Integer)
+  {-(Integer)-})
+{+(Plus
+  {+(Identifier)+}
+  {+(Identifier)+})+})

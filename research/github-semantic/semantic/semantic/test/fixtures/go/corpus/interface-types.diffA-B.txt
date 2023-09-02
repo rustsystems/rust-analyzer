@@ -1,0 +1,47 @@
+(Statements
+  (Package
+    (Identifier))
+  (Function
+    (Identifier)
+    (Statements
+      (Statements
+        (Type
+        { (Identifier)
+        ->(Identifier) }
+          (Interface
+            (Statements))))
+      (Statements
+        (Type
+        { (Identifier)
+        ->(Identifier) }
+          (Interface
+            (MemberAccess
+              (Identifier)
+              (Identifier)))))
+      (Statements
+        (Type
+        { (Identifier)
+        ->(Identifier) }
+          (Interface
+            (Statements
+              (Identifier)
+              (MemberAccess
+                (Identifier)
+                (Identifier))
+              (MethodSignature
+                (Identifier)
+                (Identifier)
+                (Statements
+                  (Identifier)
+                  (Identifier)))))))
+      (Context
+        (Comment)
+        (Statements
+          (Type
+          { (Identifier)
+          ->(Identifier) }
+            (Interface
+              (MethodSignature
+                (Empty)
+              { (Identifier)
+              ->(Identifier) }))))))))

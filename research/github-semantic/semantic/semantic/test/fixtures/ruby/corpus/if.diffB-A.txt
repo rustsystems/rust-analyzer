@@ -1,0 +1,23 @@
+(Statements
+  (If
+    (Send
+    { (Identifier)
+    ->(Identifier) })
+    (Statements
+    {+(Send
+      {+(Identifier)+})+})
+  { (Empty)
+  ->(If
+    {+(Send
+      {+(Identifier)+})+}
+    {+(Statements
+      {+(Send
+        {+(Identifier)+})+})+}
+    {+(Send
+      {+(Identifier)+})+}) })
+{-(If
+  {-(Send
+    {-(Identifier)-})-}
+  {-(Statements
+    {-(Statements)-})-}
+  {-(Empty)-})-})

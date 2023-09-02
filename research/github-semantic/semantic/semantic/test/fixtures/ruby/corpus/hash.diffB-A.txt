@@ -1,0 +1,40 @@
+(Statements
+  (Hash
+    (KeyValue
+    { (SymbolElement)
+    ->(SymbolElement) }
+    { (TextElement)
+    ->(TextElement) })
+    (KeyValue
+    { (SymbolElement)
+    ->(SymbolElement) }
+    { (Integer)
+    ->(Integer) })
+    (KeyValue
+    { (SymbolElement)
+    ->(TextElement) }
+    { (Boolean)
+    ->(Boolean) })
+  {+(KeyValue
+    {+(SymbolElement)+}
+    {+(Integer)+})+})
+{+(Hash)+}
+{+(Hash
+  {+(Context
+    {+(Comment)+}
+    {+(KeyValue
+      {+(SymbolElement)+}
+      {+(Integer)+})+})+}
+  {+(Context
+    {+(Comment)+}
+    {+(Comment)+}
+    {+(KeyValue
+      {+(TextElement)+}
+      {+(Integer)+})+})+}
+  {+(Context
+    {+(Comment)+}
+    {+(Empty)+})+})+}
+{+(Hash
+  {+(Context
+    {+(Comment)+}
+    {+(Empty)+})+})+})

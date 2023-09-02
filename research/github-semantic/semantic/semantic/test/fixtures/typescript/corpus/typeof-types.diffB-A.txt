@@ -1,0 +1,17 @@
+(Statements
+  (VariableDeclaration
+    (Assignment
+      (Annotation
+      { (TypeQuery
+        {-(Identifier)-})
+      ->(TypeIdentifier) })
+      (Identifier)
+      (Empty)))
+  (VariableDeclaration
+    (Assignment
+      (Annotation
+      { (TypeIdentifier)
+      ->(TypeQuery
+        {+(Identifier)+}) })
+      (Identifier)
+      (Empty))))

@@ -1,0 +1,18 @@
+(Statements
+  (Package
+    (Identifier))
+  (Function
+    (Identifier)
+    (Statements
+      (Assignment
+        (Identifier)
+      { (Integer)
+      ->(Integer) })
+      (Assignment
+        (Identifier)
+      { (Integer)
+      ->(Integer) })
+      (Assignment
+        (Identifier)
+      { (Integer)
+      ->(Integer) }))))

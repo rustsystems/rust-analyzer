@@ -1,0 +1,24 @@
+(Statements
+{+(Assignment
+  {+(Identifier)+}
+  {+(Integer)+})+}
+  (Assignment
+    (Statements
+      (Identifier)
+      (Identifier))
+    (Statements
+    {-(Integer)-}
+      (Integer)
+    {+(Integer)+}))
+  (Assignment
+  { (Identifier)
+  ->(Identifier) }
+  { (Integer)
+  ->(Statements
+    {+(Integer)+}
+    {+(Integer)+}) })
+{-(Assignment
+  {-(Identifier)-}
+  {-(Statements
+    {-(Integer)-}
+    {-(Integer)-})-})-})

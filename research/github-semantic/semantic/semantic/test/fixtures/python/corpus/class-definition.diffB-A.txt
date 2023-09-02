@@ -1,0 +1,50 @@
+(Statements
+  (Class
+  { (Identifier)
+  ->(Identifier) }
+  {-(Identifier)-}
+    (Statements
+      (Function
+      { (Identifier)
+      ->(Identifier) }
+        (RequiredParameter
+          (Identifier))
+        (Statements
+          (Return
+          { (Empty)
+          ->(Identifier) })))))
+{+(Class
+  {+(Identifier)+}
+  {+(Statements
+    {+(NoOp
+      {+(Empty)+})+})+})+}
+  (Class
+    (Identifier)
+  {+(Identifier)+}
+    (Statements
+      (Function
+      { (Identifier)
+      ->(Identifier) }
+        (RequiredParameter
+          (Identifier))
+        (Statements
+          (Return
+          { (Identifier)
+          ->(Empty) })))))
+  (Class
+  { (Identifier)
+  ->(Identifier) }
+    (Identifier)
+    (Statements
+      (Assignment
+        (Identifier)
+      { (Identifier)
+      ->(Identifier) }
+        (Empty))
+      (Assignment
+        (Subscript
+          (Identifier)
+          (Identifier))
+      { (Identifier)
+      ->(Identifier) }
+        (Empty)))))
